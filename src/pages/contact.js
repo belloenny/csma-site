@@ -11,12 +11,11 @@ export default class Contact extends Component {
                 <div className="section w-container">
                     <div className="container2 w-container">
                         <h1 className="contact-msg">Contact Us</h1>
-                        <div className="form-block-2 w-form">
-                            <form 
+                        <form 
                                 id="email-form" 
                                 name="contact" 
-                                data-netlify= "true"
-                                data-netlify-honeypot = "bot-field"
+                                data-netlify="true"
+                                
                                 method="POST" 
                                 className="form"
                                 >
@@ -36,8 +35,7 @@ export default class Contact extends Component {
                                     <label className="form-text">Message</label></div>
                                 <textarea name="comments" id="field-2" cols={30} rows={10} className="form-input final w-input" defaultValue={ ""} />
                                 <input type="submit" defaultValue="Submit" data-wait="Please wait..." className="submit w-button" />
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
                 <Footer/>
