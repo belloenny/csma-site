@@ -24,6 +24,8 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossOrigin="anonymous"></script>
+        <script src="https://uploads-ssl.webflow.com/5d6e3485715588723c16a57c/js/webflow.18a782117.js" type="text/javascript"></script>
         {props.postBodyComponents}
       </body>
     </html>
