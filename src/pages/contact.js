@@ -19,6 +19,7 @@ export default class Contact extends Component {
                                 method="POST" 
                                 className="form"
                                 >
+                                <input type="hidden" name="form-name" value="contact" />
                                 <div className="upper-block _1">
                                     <div className="form-block">
                                         <label className="form-text">Enter your name</label>
