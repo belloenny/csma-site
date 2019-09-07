@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import SEO from "../components/seo";
 
 export default class Contact extends Component {
     render() {
         return (
             <div>
                 <Header/>
-
+                <SEO title='CSMA'/>
                 <div className="section w-container">
                     <div className="container2 w-container">
                         <h1 className="contact-msg">Contact Us</h1>

@@ -2,6 +2,7 @@ import React from "react"
 import Header from '../components/header'
 import SlideShow from '../components/slide'
 import Footer from '../components/footer'
+import SEO from '../components/seo'
 import "../global/index.css"
 import "../global/webflow.css"
 import "../global/normalize.css"
@@ -14,6 +15,7 @@ class IndexPage extends React.Component {
             <div>
             <Header/>
             <SlideShow/>
+            <SEO title='CSMA' description='Transforming Africa by harnessing the potential of youth'/>
             <div className="backpic">
                 <div className="_2ndp w-container">
                     <h6 className="orangeheader">Our Mission</h6>

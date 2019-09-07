@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import NewsCard from '../components/newsCard'
 import Header from '../components/header'
 import Footer from '../components/footer';
+import SEO from '../components/seo'
 
 
 const NewsPage = ({ data }) => {
@@ -10,6 +11,7 @@ const NewsPage = ({ data }) => {
     return (
      <React.Fragment>
        <Header/>
+       <SEO title='NEWS AND MEDIA' description='Transforming Africa by harnessing the potential of youth'/>
        <div className="newssec">
           <div className="newslanding w-container">
               <h2 className="heading-7">NEWS</h2>
