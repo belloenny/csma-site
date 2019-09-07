@@ -14,7 +14,9 @@ const NewsPost = ({ data }) => {
           <SEO title={title} />
           <h1 className="heading-7">{title}</h1>
           <img alt={title} src={image.file.url} />
-          <p className="body-text">{description.description}</p>
+          <div className="body-text"
+            dangerouslySetInnerHTML={{__html: description.childMarkdownRemark.html}}
+          ></div>
           <div className='nav-links'>
             <Link to="/news/" className="li">View more posts</Link>
             <Link to="/" className="li">Back to Home</Link>
@@ -35,7 +37,9 @@ export const pageQuery = graphql`
       title
       slug
       description {
-        description
+        childMarkdownRemark {
+          html
+        }
       }
       image {
         file {
