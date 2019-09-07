@@ -17,7 +17,6 @@ export default class Contact extends Component {
                                 name="contact" 
                                 data-netlify= "true"
                                 data-netlify-honeypot = "bot-field"
-                                action="https://formspree.io/hannah@avantgarde.co.ke" 
                                 method="POST" 
                                 className="form"
                                 >
