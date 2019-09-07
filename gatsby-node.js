@@ -40,16 +40,16 @@ exports.createPages = ({ graphql, actions }) => {
         path: `/contact/`,
         component: contact,
       })
-      // create ourteam page
-      createPage({
-        path: `/team/`,
-        component: ourTeam,
-      })
-       // create partners page
-       createPage({
-        path: `/partners/`,
-        component: partners,
-      })
+      // // create ourteam page
+      // createPage({
+      //   path: `/team/`,
+      //   component: ourTeam,
+      // })
+      //  // create partners page
+      //  createPage({
+      //   path: `/partners/`,
+      //   component: partners,
+      // })
 
       // Then for each result we create a page.
       result.data.allContentfulNewsPost.edges.forEach(edge => {

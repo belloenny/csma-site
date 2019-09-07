@@ -59,7 +59,7 @@
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 36px;
+  top: 37px;
 }
 
 /* Color/shape of burger icon bars */
@@ -714,9 +714,8 @@
    }
    
    .image {
-     margin-top: 18px;
-     margin-left: 36px;
-     margin-bottom: 36px;
+     margin-left: 39px;
+     margin-bottom: 6px;
    }
    .image-3 {
     width: 100%;
