@@ -12,7 +12,15 @@ export default class Contact extends Component {
                     <div className="container2 w-container">
                         <h1 className="contact-msg">Contact Us</h1>
                         <div className="form-block-2 w-form">
-                            <form id="email-form" name="email-form" action="https://formspree.io/hannah@avantgarde.co.ke" method="POST" className="form">
+                            <form 
+                                id="email-form" 
+                                name="contact" 
+                                data-netlify= "true"
+                                data-netlify-honeypot = "bot-field"
+                                action="https://formspree.io/hannah@avantgarde.co.ke" 
+                                method="POST" 
+                                className="form"
+                                >
                                 <div className="upper-block _1">
                                     <div className="form-block">
                                         <label className="form-text">Enter your name</label>
