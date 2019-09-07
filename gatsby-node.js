@@ -35,11 +35,6 @@ exports.createPages = ({ graphql, actions }) => {
         path: `/news/`,
         component: homePage,
       })
-      // create gallery page
-      createPage({
-        path: `/gallery/`,
-        component: gallery,
-      })
       // create contactPage page
       createPage({
         path: `/contact/`,

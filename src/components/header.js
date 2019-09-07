@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
     <div className="navbar w-container">
         <div className="leftbutton"><Link to="/partners/" className="ourpartners w-button">OUR PARTNERS</Link><Link to="/news/" className="ourpartners w-button">NEWS AND MEDIA</Link></div>
         <div className="logo"><Link to="/"><img src="https://uploads-ssl.webflow.com/5d6e3485715588723c16a57c/5d6fc34c59e551524504f387_Group%20256.png" width={161} alt="" className="image" /></Link></div>
-        <div className="rightbutton"><Link to="/contact/" className="ourpartners w-button">CONTACT</Link><Link to="/team/" className="ourpartners w-button">OUR TEAM</Link><Link to="/gallery/" className="ourpartners w-button">GALLERY</Link></div>
+        <div className="rightbutton"><Link to="/contact/" className="ourpartners w-button">CONTACT</Link><Link to="/team/" className="ourpartners w-button">OUR TEAM</Link></div>
     </div>
   </React.Fragment>
 )
