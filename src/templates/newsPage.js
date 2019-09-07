@@ -9,8 +9,8 @@ const NewsPost = ({ data }) => {
   return (
       
      <React.Fragment>
-        <Header/>
-        <div className="centered w-container">
+        <Header pageWrapId={"page-wrap"} outerContainerId={"App"}/>
+        <div className="centered w-container" id="page-wrap">
           <SEO title={title} />
           <h1 className="heading-7">{title}</h1>
           <img alt={title} src={image.file.url} />

@@ -24,9 +24,9 @@ class IndexPage extends React.Component {
                     <h4 className="orangeheader _2">Our strategic areas</h4>
                     <div className="cardholder">
                         <div className="bos">
-                            <h1 className="cardtext">Sport for<br />Development</h1><a href="#" className="download">Download</a></div>
+                            <h1 className="cardtext">Sport for<br />Development</h1><a href="https://drive.google.com/open?id=1XqKMvj3xLeQp2pCVgtivwMc3--tRSSjt" className="download" target="_blank">Download</a></div>
                         <div className="bos">
-                            <h1 className="cardtext">Business of <br />Sports</h1><a href="#" className="download">Download</a></div>
+                            <h1 className="cardtext">Business of <br />Sports</h1><a href="https://drive.google.com/open?id=1sqU_BQNLJpEgStwmGgX_TYMnEa1eKZ4_" className="download" target="_blank">Download</a></div>
                     </div>
                 </div>
             </div>

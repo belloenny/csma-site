@@ -24,6 +24,81 @@
      grid-column-gap: 83px;
    }
    
+#App {
+    font-family: sans-serif;
+  
+    /* Give app full page to work with */
+    height: 100vh;
+}
+#page-wrap {
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #e43812;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
    .navbar {
      display: -webkit-box;
      display: -webkit-flex;
@@ -70,14 +145,14 @@
   }
    .ourpartners {
      margin-top: 31px;
-     background-color: #fff;
      -webkit-transition: color 400ms cubic-bezier(.785, .135, .15, .86);
      transition: color 400ms cubic-bezier(.785, .135, .15, .86);
-     color: #000;
+     color: #fff;
+     text-decoration: none;
    }
    
    .ourpartners:hover {
-     color: #e43812;
+     color: gray;
    }
    
    .logo {
@@ -467,6 +542,7 @@
     padding-left: 19px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e43812), to(#e43812));
     background-image: linear-gradient(180deg, #e43812, #e43812);
+    height: 30vh;
   }
 
    
@@ -478,8 +554,8 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
@@ -639,6 +715,8 @@
    
    .image {
      margin-top: 18px;
+     margin-left: 36px;
+     margin-bottom: 36px;
    }
    .image-3 {
     width: 100%;
